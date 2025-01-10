@@ -59,22 +59,8 @@ struct Character: Codable, Identifiable {
 
 }
 
-
 // MARK: - CharacterLocation
 struct CharacterLocation: Codable {
     let name: String
     let url: String
-}
-
-// MARK: - Enums
-enum Gender: String, Codable {
-    case female = "Female"
-    case male = "Male"
-    case unknown = "unknown"
-}
-
-enum Status: String, Codable {
-    case alive = "Alive"
-    case dead = "Dead"
-    case unknown = "unknown"
 }
